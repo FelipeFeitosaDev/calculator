@@ -1,6 +1,4 @@
-# reachme-menu
-
-# task-list
+# Calculator 
 <img align="center" width="60%" margin-bottom="80px" src="https://github.com/FelipeFeitosaDev/calculator/blob/master/assets/img/calculator-cover.png" style="max-width:100%;">
 
 A tasks creator with dracula theme</br>
