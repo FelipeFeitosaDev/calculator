@@ -1,8 +1,7 @@
 # Calculator 
 <img align="center" width="60%" margin-bottom="80px" src="https://github.com/FelipeFeitosaDev/calculator/blob/master/assets/img/calculator-cover.png" style="max-width:100%;">
 
-A tasks creator with dracula theme</br>
-Just practicing with js vanilla a little bit. 
+A simple calculator with eval method
 
 ## Technologies Used
 
@@ -15,12 +14,11 @@ Just practicing with js vanilla a little bit.
 
 ## Features
 
-it's a basic task creator with local storage. 
-you can add your tasks and close and the tasks still saved.
-
-- the buttons gets pink when mouse over.
+- table tags to layout the calculator
+- eval method to return results 
+- the buttons gets pink when mouse over
 - event listeners
-- localStorage api
+
 
 ## How to use
 
