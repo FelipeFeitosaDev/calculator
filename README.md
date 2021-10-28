@@ -6,6 +6,7 @@
 
 * HTML5
 * CSS3
+* JavaScript
 * Git
 * GitHub
 * Google Fonts
