@@ -1,7 +1,11 @@
 (function(){
 
     
-
+    function createCalculator(){
+        return {
+            
+        }
+    }
 
 
 
