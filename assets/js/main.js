@@ -1,12 +1,12 @@
 (function () {
-  function createCalculator() {
-    return {
-      display: document.querySelector(".display"),
-      turnOn() {
+  function Calculator() {
+   
+      this.display = document.querySelector(".display"),
+      this.turnOn = () => {
         this.mouseClick();
         this.keyPressed();
-      },
-      mouseClick() {
+      }
+      this.mouseClick = () => {
         document.addEventListener("click", (e) => {
           const clicked = e.target;
           if (clicked.classList.contains("num")) {
@@ -24,24 +24,24 @@
           //clear input
           this.display.focus();
         });
-      },
-      viewDisplay(text) {
+      }
+      this.viewDisplay = (text) => {
         this.display.value += text;
-      },
-      clearDisplay() {
+      }
+      this.clearDisplay = () => {
         this.display.value = "";
-      },
-      viewResult() {
+      }
+      this.viewResult = () => {
         try {
           return (this.display.value = eval(this.display.value));
         } catch (err) {
           return (this.display.value = "Valor Inválido!");
         }
-      },
-      deleteValue() {
+      }
+      this.deleteValue = () => {
         this.display.value = this.display.value.slice(0, -1);
-      },
-      keyPressed() {
+      }
+      this.keyPressed = () => {
         this.display.addEventListener("keyup", (e) => {
           console.log(e.keyCode);
           if (e.keyCode === 13) {
@@ -52,9 +52,9 @@
             this.clearDisplay();
           }
         });
-      },
-    };
+      }
+    
   }
-  const calculator = createCalculator();
+  const calculator = new Calculator();
   calculator.turnOn();
 })();
