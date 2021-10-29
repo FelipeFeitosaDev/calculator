@@ -1,7 +1,7 @@
 # Calculator 
 <img align="center" width="60%" margin-bottom="80px" src="https://github.com/FelipeFeitosaDev/calculator/blob/master/assets/img/calculator-cover.png" style="max-width:100%;">
 
-A simple calculator with eval method
+A simple calculator with eval method and consctructor functions
 
 ## Technologies Used
 
